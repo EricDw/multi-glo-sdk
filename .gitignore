@@ -95,3 +95,5 @@ hs_err_pid*
 /src/commonMain/SuperSecretCodes.kt
 
 src/commonMain/kotlin/SuperSecretCodes\.kt
+
+local\.properties
