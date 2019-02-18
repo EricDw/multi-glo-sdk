@@ -97,3 +97,11 @@ hs_err_pid*
 src/commonMain/kotlin/SuperSecretCodes\.kt
 
 local\.properties
+
+\.idea/artifacts/
+
+\.idea/caches/
+
+\.idea/codeStyles/
+
+\.idea/
