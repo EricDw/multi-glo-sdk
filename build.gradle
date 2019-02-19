@@ -15,7 +15,7 @@ kotlin {
         // For JavaScript, preset should be changed to presets.js
 //        fromPreset(presets.js, 'js')
         // For Android, preset should be changed to presets.jvm
-        fromPreset(presets.jvm, 'android')
+//        fromPreset(presets.jvm, 'android')
         // For ARM, preset should be changed to presets.iosArm32 or presets.iosArm64
         // fromPreset(presets.iosArm64, 'ios')
         // For Linux, preset should be changed to e.g. presets.linuxX64
@@ -54,20 +54,20 @@ kotlin {
                 implementation 'org.jetbrains.kotlin:kotlin-test-junit'
             }
         }
-        androidMain {
-            dependencies {
-                implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.3.21'
-                implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21'
-                implementation 'io.ktor:ktor-client-android:1.1.2'
-                implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
-            }
-        }
-        androidTest {
-            dependencies {
-                implementation 'org.jetbrains.kotlin:kotlin-test'
-                implementation 'org.jetbrains.kotlin:kotlin-test-junit'
-            }
-        }
+//        androidMain {
+//            dependencies {
+//                implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.3.21'
+//                implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21'
+//                implementation 'io.ktor:ktor-client-android:1.1.2'
+//                implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
+//            }
+//        }
+//        androidTest {
+//            dependencies {
+//                implementation 'org.jetbrains.kotlin:kotlin-test'
+//                implementation 'org.jetbrains.kotlin:kotlin-test-junit'
+//            }
+//        }
 //        jsMain {
 //            dependencies {
 //                implementation 'org.jetbrains.kotlin:kotlin-stdlib-js'
